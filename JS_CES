@@ -1,0 +1,24 @@
+// let's make the College Enrollment System 
+
+// what do I need:
+// to know  - data fields 
+// to DO    - methods 
+// to create a software application that can manage Cestar College ???
+
+function enrollStudent(){
+    return " Student Enrollmented ";
+}
+
+let students = ['John', 'Mary'];
+let classes = ['Java', 'Math'];
+let enrollments = [students, classes, enrollStudent()];
+
+var manageStudents = enrollments[0];
+console.log(manageStudents);
+manageStudents.push("Peanut");
+console.log(manageStudents);
+
+// how can I get a handle of the enrollStudent Function and run it on
+// just like I got a handle on students data object ??
+var managementEnrollments = enrollments[2];
+console.log('fini');
